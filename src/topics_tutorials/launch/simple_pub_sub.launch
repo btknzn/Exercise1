@@ -1,0 +1,10 @@
+<launch>
+	<node name="talker" pkg="topics_tutorials"
+	type="simple_publisher.py" output="screen" />
+	<node name="listener1" pkg="topics_tutorials"
+	type="simple_subscriber.py" output="screen" />
+	<node name="listener2" pkg="topics_tutorials"
+	type="simple_subscriber.py" output="screen" />
+	<node name="listener3" pkg="topics_tutorials"
+	type="simple_subscriber.py" output="screen" />
+</launch>
